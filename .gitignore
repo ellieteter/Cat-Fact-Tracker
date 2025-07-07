@@ -1,12 +1,17 @@
-# Ignore Python stuff
+# Python stuff
 __pycache__/
 *.pyc
 
-# Ignore DB
+# SQLite DB
 backend/cat_facts.db
 
-# Ignore macOS
+# macOS
 .DS_Store
 
-# Ignore VSCode
+# VSCode
 .vscode/
+
+# React/Node stuff inside frontend
+frontend/cat_fact_project/node_modules/
+frontend/cat_fact_project/build/
+
